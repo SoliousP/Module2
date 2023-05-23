@@ -1,0 +1,49 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+}
+h2 {
+    margin: 0px;
+    padding: 10px;
+    background-color: midnightblue;
+    text-align: right;
+    width: 21%;
+    float: right;
+}
+p{
+    margin-top: 55px;
+}
+section {
+  border: 1px solid black;
+  margin: 10px;
+  padding: 20px;
+  background-color: darkslateblue;
+
+}
+
+/* Apply responsive styles using media queries */
+@media (min-width: 768px) {
+  /* Styles for tablet view */
+  section {
+    width: 50%;
+    float: left;
+  }
+  
+  section:nth-child(3) {
+    clear: both;
+  }
+}
+
+@media (min-width: 992px) {
+  /* Styles for desktop view */
+  section {
+    width: 33.33%;
+    float: left;
+  }
+}
+
